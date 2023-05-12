@@ -1,0 +1,113 @@
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 25px;
+  border: 2px solid #c300ff;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-image: url(vue.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+  
+  @media only screen and (min-width: 200px) and (max-width: 768px) {
+    .form-container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background: -webkit-linear-gradient( #053f7e,#000f1f,);
+        border: 2px solid #c300ff;
+        margin-top: 45%;
+        margin-bottom: 40%;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+  }
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    background-color: -webkit-linear-gradient( left,#ffffff,#000f1f,) !important;
+  }
+  
+  .top {
+    color:aliceblue;
+    margin-bottom: 3%;
+    margin-left: -90%;
+    margin-top: 3%;
+  }
+
+ 
+
+  .mtop {
+    color:aliceblue;
+    margin-bottom: 5px;
+    margin-left: -85%;
+    margin-top: 3%;
+  }
+
+  @media (max-width: 450px) {
+    .top {
+      color:aliceblue;
+      margin-bottom: 3%;
+      margin-left: -80%;
+      margin-top: 3%;
+    }
+  
+   
+  
+    .mtop {
+      color:aliceblue;
+      margin-bottom: 5px;
+      margin-left: -75%;
+      margin-top: 3%;
+    }
+    
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    
+    border: 3px solid #91edff;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: transparent;
+    color: aliceblue;
+  }
+
+  input:focus,
+textarea:focus {
+  background-color: #004765;
+}
+
+input:hover,
+textarea:hover {
+  border: 3px solid#a200ff;
+}
+  
+  button {
+    padding: 10px 20px;
+    background-color: #a200ff;
+    color: #fff;
+    border: 2px solid #91edff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 2%;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+    border: 2px solid #00ff73;
+  }
+
+  ::placeholder {
+    color: rgb(183, 183, 183);
+  }
+  
+  
