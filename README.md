@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+## Install these dependancies to run this React app
+
+`npm i react-pdf`
+`npm i react-bootstrap`
+`npm i react-parallax-tilt`
+`npm i react-react-router`
+`npm i react-react-router-dom`
+`npm i reactstrap`
+`npm i typewriter-effect`
+`npm i react-helmet`
+`npm i emailjs-com`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
